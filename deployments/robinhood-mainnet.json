@@ -1,0 +1,31 @@
+{
+  "network": "Robinhood Chain mainnet",
+  "chainId": 4663,
+  "rpc": "https://rpc.mainnet.chain.robinhood.com",
+  "explorer": "https://robinhoodchain.blockscout.com",
+  "deployedAt": "2026-10-07",
+  "deployBlock": 82570674,
+  "deployer": "0x9A91F71Dd392953f93553DD877b2E50cccBa02b4",
+  "admin": "0x333520719e02B441f03a806f1ae505FD9199ee6D",
+  "treasury": "0x51B12F3268128Ca27d460255ACD4798f5eC7BD85",
+  "arbiter": "0x1D5BE9aD95436bA2a5F74F76b2b622caEe590e4D",
+  "contracts": {
+    "AgentcityProjectEscrow": "0x89D79CB874FEFA821453bE6ce3C2198592FCDb87"
+  },
+  "tokens": {
+    "IMD (Identity.md, 18 decimals)": {
+      "address": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+      "maxPerDeposit": "100 IMD"
+    }
+  },
+  "settings": {
+    "feeBps": 0,
+    "ethAllowed": false
+  },
+  "verification": "Sourcify exact_match",
+  "ownership": {
+    "owner": "0x333520719e02B441f03a806f1ae505FD9199ee6D",
+    "acceptedAt": "2026-10-08",
+    "tx": "0x77c2ca5dd7e16072be8250961648d4c9f425a0fc7cfe15e1f1644935b0c6eabe"
+  }
+}

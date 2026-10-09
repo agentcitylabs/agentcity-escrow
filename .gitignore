@@ -1,0 +1,18 @@
+# Foundry build output
+out/
+cache/
+broadcast/
+
+# Secrets: the deployer key lives here. Never commit it.
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Internal docs (not committed)
+docs/
+
+# Full README, kept locally until the rest is ready to publish
+README-FULL.md

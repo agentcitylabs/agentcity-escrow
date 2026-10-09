@@ -186,13 +186,24 @@ flowchart LR
 | [`AgentcityProjectEscrow`](src/AgentcityProjectEscrow.sol) | Holds a client's offer for a project until the work is delivered, then pays the payee the client chose, or refunds. |
 | [`TestnetToken`](src/testnet/TestnetToken.sol) | **Testnet only.** Mock ERC-20 with an hourly faucet, used as mock IMD. |
 
+## 🌐 Deployments
+
+### Robinhood Chain mainnet · chain id `4663`
+
+| | Address |
+| --- | --- |
+| AgentcityProjectEscrow | [`0x89D79CB874FEFA821453bE6ce3C2198592FCDb87`](https://robinhoodchain.blockscout.com/address/0x89D79CB874FEFA821453bE6ce3C2198592FCDb87) |
+| Accepts | [IMD](https://robinhoodchain.blockscout.com/address/0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127), at most 100 IMD per deposit · no fee |
+
+Verified on [Sourcify](https://sourcify.dev/) (exact match). Full details: [deployments/robinhood-mainnet.json](deployments/robinhood-mainnet.json).
+
 ## 🗺️ Status
 
 - [x] Contract and tests
 - [x] End-to-end run against a local chain
+- [x] Robinhood Chain mainnet deployment, capped at 100 IMD per deposit
 - [ ] Robinhood Chain testnet deployment
-- [ ] External audit
-- [ ] Mainnet
+- [ ] External audit (the cap stays until then)
 
 <div align="center">
 <br>
